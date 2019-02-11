@@ -5,6 +5,7 @@
 >>> b
 20
 
+print("Hello World")
 
 #Valor nulo (null)
 reais = None
