@@ -44,28 +44,19 @@ reais = None
 		
 # Estrutura de decisão
 nome = input("Digite seu nome: ")
-idade = int(input("Digite sua idade: "))
-if idade > 16:
+idade = input("Digite sua idade: ")
+if int(idade) > 16:
  print(f'{nome} pode comprar o jogo')
  
  
 nome = input("Digite seu nome: ")
-idade = int(input("Digite sua idade: "))
-if idade > 16:
+idade = input("Digite sua idade: ")
+if int(idade) > 16:
  print(f'{nome} pode comprar o jogo')
 else:
  print(f'{nome} não pode comprar o jogo, possui {idade} anos') 
- 
-  
- 
-nome = input("Digite seu nome: ")
-idade = int(input("Digite sua idade: "))
-if idade >= 16:
- print(f'{nome} pode comprar o jogo')
-else:
- print(f'{nome} não pode comprar o jogo, possui {idade} anos')
- 
- 
+
+
 nome = input("Digite o nome do jogo: ")
 codigo = int(input("Digite o código do jogo: "))
 
@@ -126,8 +117,8 @@ vendidos = 0
 parada = 1
 while parada != 0:
    nome = input("Digite seu nome: ")
-   idade = int(input("Digite sua idade: "))
-   if idade >= 16:
+   idade = input("Digite sua idade: ")
+   if int(idade) >= 16:
        vendidos += 1
    else:
        print(f'{nome} não pode comprar o jogo, possui {idade} anos')
